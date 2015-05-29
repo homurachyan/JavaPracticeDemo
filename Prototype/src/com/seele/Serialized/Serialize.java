@@ -1,4 +1,4 @@
-package com.seele.Test;
+package com.seele.Serialized;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
