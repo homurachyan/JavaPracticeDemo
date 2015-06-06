@@ -9,10 +9,21 @@ public class DynamicProxy {
 			ClassLoader loader,
 			Class[] interfaces,
 			InvocationHandler h){
-		if(true){
+/*		if(true){
 			//执行前置通知
 			(new BeforeAdvice()).exec();
-		}
+		}*/
+	      //以下是分解步骤  
+		  
+	      /* 
+	 
+	      Class c = Proxy.getProxyClass(cls.getClassLoader(),cls.getInterfaces()) ; 
+	 
+	      Constructor ct=c.getConstructor(new Class[]{InvocationHandler.class}); 
+	 
+	      Subject subject =(Subject) ct.newInstance(new Object[]{ds}); 
+	 
+	     */  
 		return Proxy.newProxyInstance(loader, interfaces, h);	
 	}
 //	  public static void main( String args[] )   
