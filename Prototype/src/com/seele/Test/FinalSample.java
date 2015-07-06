@@ -23,8 +23,7 @@ public class FinalSample {
        
        newArray[oldArray.length] = 6;
        
-    	   System.out.println(System.getProperty("user.dir"));
-       
-       
+       System.out.println(System.getProperty("user.dir"));
+           
     }
 }

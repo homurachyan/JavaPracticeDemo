@@ -61,7 +61,7 @@ public class User implements java.io.Serializable {
 	}
 	
 	public static void main(String[] args) {
-		try {
+		try{
 			//内省(Introspector)
 			PropertyDescriptor[] pd = Introspector.getBeanInfo(User.class).getPropertyDescriptors();
 			for (int i = 0; i < pd.length; i++) {

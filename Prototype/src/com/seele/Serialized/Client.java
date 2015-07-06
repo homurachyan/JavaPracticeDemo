@@ -30,7 +30,7 @@ public class Client {
 		
 		try{
 			ObjectInputStream in = new ObjectInputStream(new FileInputStream("seria"));
-			Student studentRead = (Student) in.readObject();
+			Student studentRead = (Student) in.readObject();//不使用构造器生成对象
 			System.out.println("object read here:");
 			System.out.println(studentRead);
 		}catch(FileNotFoundException e){
