@@ -38,10 +38,10 @@ public class ChildClass extends FatherClass {
     }    
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/*		ChildClass cc = new ChildClass("123");
+	ChildClass cc = new ChildClass("123");
 		cc.doPost();
 		cc.doGet();
-		String str1 = "hello";
+		/*			String str1 = "hello";
 		String str2 = "he" + new String("llo");
 		System.err.println(str1 == str2);
 		

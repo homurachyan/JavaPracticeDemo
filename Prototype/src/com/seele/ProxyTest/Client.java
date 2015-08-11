@@ -2,6 +2,7 @@ package com.seele.ProxyTest;
 
 import java.io.FileOutputStream;
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
 
 import sun.misc.ProxyGenerator;
 
@@ -12,8 +13,11 @@ public class Client {
         Subject sub = new RealSubject();
         InvocationHandler handler = new ProxyHandler(sub);
         
-        Subject proxy = (Subject) DynamicProxy.getNewProxyInstance(
+/*        Subject proxy = (Subject) DynamicProxy.getNewProxyInstance(
         		sub.getClass().getClassLoader(), 
+        		sub.getClass().getInterfaces(), 
+        		handler);*/
+        Subject proxy = (Subject) Proxy.newProxyInstance(sub.getClass().getClassLoader(), 
         		sub.getClass().getInterfaces(), 
         		handler);
         
