@@ -24,7 +24,7 @@ public class ChildClass extends FatherClass {
 		System.out.println("child非静态初始化块·····");
 	}
 	{
-		System.out.println("s=" + st);
+		System.out.println("child非静态初始化块2 s=" + st);
 	}
     public static void doPost(){
     	System.out.println("invoke child methed");

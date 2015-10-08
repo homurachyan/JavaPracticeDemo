@@ -10,6 +10,7 @@ public class User implements java.io.Serializable {
 	private String password;
 	private String mobile;
 	private String email;
+	
 	public User() {
 		super();
 	}
@@ -60,7 +61,7 @@ public class User implements java.io.Serializable {
 				+ "]";
 	}
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		try{
 			//内省(Introspector)
 			PropertyDescriptor[] pd = Introspector.getBeanInfo(User.class).getPropertyDescriptors();
@@ -71,5 +72,5 @@ public class User implements java.io.Serializable {
 		} catch (IntrospectionException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 }
