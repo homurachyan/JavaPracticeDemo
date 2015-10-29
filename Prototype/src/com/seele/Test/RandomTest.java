@@ -3,6 +3,7 @@ package com.seele.Test;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class RandomTest {
 
@@ -16,8 +17,14 @@ public class RandomTest {
 	     }  
 	     String afterShuffle = sb.toString();  
 	     String result = afterShuffle.substring(5, 9);  
-	     System.out .print(result) ;
-
+	     System.out.println(result) ;
+         
+	     Random rand = new Random();//创建Random类的对象rand  
+	     String vcode = "";
+	     for(int i=0;i<4;i++){
+	    	 vcode += rand.nextInt(10);	    	 
+	     }
+	     System.out.println(vcode) ;
 	}
 
 }
