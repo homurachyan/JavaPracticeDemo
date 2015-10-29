@@ -3,5 +3,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/cglib-nodep.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/httpmime-4.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/emayclient.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/jdom-2.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

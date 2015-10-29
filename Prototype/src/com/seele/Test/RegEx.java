@@ -115,6 +115,9 @@ public class RegEx {
         
         System.out.println("a".getBytes().length);
         System.out.println("你".getBytes().length);
+        
+        long interval = 901;
+        System.out.println((int)Math.floor(901/60));
 	}
 	
 	public static String exactMobile(String mobile){
