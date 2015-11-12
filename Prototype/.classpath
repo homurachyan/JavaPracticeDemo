@@ -8,5 +8,10 @@
 	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/httpmime-4.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/emayclient.jar"/>
 	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/jdom-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/JavaPracticeDemo/Prototype/lib/commons-pool2-2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

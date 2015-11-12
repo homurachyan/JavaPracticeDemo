@@ -1,8 +1,10 @@
 package com.seele.Test;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class C {
@@ -14,6 +16,9 @@ public class C {
         for(Iterator<String> iterator = s.iterator();iterator.hasNext();){
 			System.out.println(iterator.next()); //所有下家
 		}
+        
+        Map map = new HashMap();
+        System.out.println(map.isEmpty());
 	}
     
 	public static void A(Set s,int count){
